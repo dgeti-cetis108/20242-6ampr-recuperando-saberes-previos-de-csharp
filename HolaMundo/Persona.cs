@@ -15,4 +15,10 @@ public class Persona
     {
         return PesoEnKilogramos / (float)Math.Pow(AlturaEnMetros, 2);
     }
+
+    public string NombreCompleto()
+    {
+        // retornar nombre completo y quitar espacios antes o despues de la cadena
+        return $"{Nombre} {PrimerApellido} {SegundoApellido}";
+    }
 }
