@@ -20,7 +20,7 @@ var alumno1 = new Estudiante
 };
 
 // imprimir el nombre completo de alumno1
-Console.WriteLine(alumno1.NombreCompleto());
+// Console.WriteLine(alumno1.NombreCompleto());
 
 var estudiantes = new Estudiante[3]; // matriz o array
 var alumnos = new List<Estudiante>(); // lista
@@ -71,8 +71,31 @@ var sextoampr = new Grupo
 };
 
 // todo: crear tres calificaciones del alumno1
+alumno1.Calificaciones.Add(new Calificacion
+{
+    Grupo = sextoampr,
+    Asignatura = damandroid,
+    Docente = merlyn,
+    Parcial1 = 10
+});
 
+alumno1.Calificaciones.Add(new Calificacion
+{
+    Grupo = sextoampr,
+    Asignatura = damios,
+    Docente = docente1,
+    Parcial1 = 9
+});
 
+alumno1.Calificaciones.Add(new Calificacion
+{
+    Grupo = sextoampr,
+    Asignatura = historia,
+    Docente = docente2,
+    Parcial1 = 5
+});
+
+Helper.ImprimirTítulo("boleta de parcial 1");
 
 void ProbarCalculoDeIMC()
 {

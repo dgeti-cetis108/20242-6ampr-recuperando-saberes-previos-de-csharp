@@ -9,6 +9,7 @@ namespace HolaMundo
         public string Periodo { get; set; }
         public Carrera Carrera { get; set; }
         public Docente Tutor { get; set; }
+        public List<Estudiante> Estudiantes { get; set; }
     }
 }
 
