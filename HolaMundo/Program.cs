@@ -96,6 +96,13 @@ alumno1.Calificaciones.Add(new Calificacion
 });
 
 Helper.ImprimirTítulo("boleta de parcial 1");
+Console.WriteLine($"Nombre del alumno: {alumno1.NombreCompleto()} No. Control: {alumno1.NúmeroDeControl}");
+Console.WriteLine($"Grupo: {sextoampr.Nombre} Carrera: {programacion.Nombre} Periodo: {sextoampr.Periodo}");
+
+Helper.LíneaHorizontal();
+Console.WriteLine("|Asignatura".PadRight(29) + "|Parcial 1|Parcial 2|Parcial 3|".PadLeft(31));
+Helper.LíneaHorizontal();
+
 
 void ProbarCalculoDeIMC()
 {
