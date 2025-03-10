@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo", "HolaMundo\Hola
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibacopa", "Cibacopa\Cibacopa.csproj", "{F2ACBE62-1B6A-4F2B-B258-8AC2B380BF9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiTorneo", "MiTorneo\MiTorneo.csproj", "{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{F2ACBE62-1B6A-4F2B-B258-8AC2B380BF9C}.Release|x64.Build.0 = Release|Any CPU
 		{F2ACBE62-1B6A-4F2B-B258-8AC2B380BF9C}.Release|x86.ActiveCfg = Release|Any CPU
 		{F2ACBE62-1B6A-4F2B-B258-8AC2B380BF9C}.Release|x86.Build.0 = Release|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Debug|x64.Build.0 = Debug|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Release|x64.ActiveCfg = Release|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Release|x64.Build.0 = Release|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F7ACE81-4B58-44F6-AAED-FA1235D808C6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
